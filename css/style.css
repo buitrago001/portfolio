@@ -1,0 +1,66 @@
+/*font import */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+/* nav bar*/
+.navbar{
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* hero seccion*/
+.hero{
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+.main-hero h1{
+  font-size: 2.5rem;
+  font-family: 'Rubik Pixels', cursive;
+}
+
+.main-hero h2{
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+.main-hero{
+  padding: 3rem;
+}
+
+/* profile pic adj*/
+.hero-profile-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/*hero inferor */
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .navbar.brand{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-img {
+    max-width: 600px;
+  }
+}

@@ -50,7 +50,55 @@ section{
   margin: 20px;
 }
 
-/*hero inferor */
+.dark-section{
+  color: white;
+  background-color: #1b1b32 ;
+}
+
+.title-section{
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
+}
+
+/*dark section*/
+.about-me{
+  height: 500px;
+  padding: 10px;
+}
+
+.about-me .container{
+  max-width: 600px;
+  text-align: center;
+
+}
+
+/*Experience*/
+.light-section{
+  color: #1b1b32;
+  background-color: white;
+}
+
+.experiences{
+  padding: 40px 40px 60px 40px;
+}
+
+.title-experience{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+
+
+.experiences i{
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+
+}
 
 /* Responsive */
 @media screen and (max-width: 768px) {

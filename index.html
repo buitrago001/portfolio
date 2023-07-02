@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Andrew Buitrago">
     <meta name="description" content="Andrew Buitrago Web Development Portfolio"> 
-    <meta name="keywords" content="HTML, CSS, Javascript, bootstrap, React, tailwind, Tyepscript">
+    <meta name="keywords" content="HTML, CSS, Javascript, bootstrap, React.JS, React, Tyepscript, SQL">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -13,10 +13,13 @@
     <title>Andrew B | Web Development Portfolio</title>
     <!--Favicon-->
     <link rel="shortcut icon" href="./images/icono.png" type="image/x-icon">
+
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <!-- CSS files-->
     <link rel="stylesheet" href="./css/style.css">
+
     <!--Boostrap icon-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
@@ -36,13 +39,13 @@
                 </a>
                 <ul class="navbar-nav d-flex justify-content-center align-content-center">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                    <a class="nav-link active" aria-current="page" href="#about-me">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#recent-project">Projects</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -54,40 +57,297 @@
         <div class="main-hero">
             <img class="hero-profile-img" src="./images/programing pic.jpeg" alt="Andrew B profile pic ">
             <h1>Andrew B</h1>
-            <h2>Systems Engineer and Web developer</h2>
+            <h2>Systems Engineer and Frontend Developer</h2>
         </div>
 
         <div class="hero-inferior">
-            <img class="hero-inferior-img img-fluid" src="./images/hero-inferior.svg" alt="known language HTML, CSS, JavaScript and React">
+            <img class="hero-inferior-img img-fluid" src="./images/hero-inferior.svg" alt="known language HTML, CSS, JavaScript and React.JS">
         </div>
     </section>
 
     <!--About-->
-    <section class="about-me dark-section">
+    <section id="#about-me" class="about-me dark-section">
       <div class="container" >
-        <h2 class="title-section">Meet Andres Buitrago</h2>
+        <h2 class="title-section">Meet Andrew B</h2>
         <p class="text-section">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet lacus ac ante pellentesque sagittis. Phasellus quis libero mollis nibh auctor bibendum vel eget lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras eget libero non nisl tincidunt posuere. Praesent nec libero egestas, tincidunt sapien et, blandit ipsum. Aenean nulla odio, lobortis ac nunc quis, facilisis efficitur massa. Morbi placerat bibendum diam, id ultrices nibh. Maecenas sollicitudin dui in odio egestas luctus. Nullam porta tortor ultrices feugiat eleifend. Ut tortor ex, pulvinar ut nibh id, volutpat molestie velit. Etiam tempus ante diam, quis ornare erat lacinia sed. Suspendisse finibus mauris metus, id hendrerit nisi ornare eget. Duis fermentum blandit sapien sed consectetur. Praesent euismod eget velit nec rutrum.</p>
       </div>
 
     </section>
 
     <!--experiences-->
+    <!-- todo fix badges are not showing  -->
     <section class="experiences light-section">
       <div class="container text-center">
         <div class="row">
-          <div class="col-12 col-md-6">
+
+          <div class="column col-12 col-md-4">
             <i class="bi bi-laptop"></i>
-            <p class="title-experience">Desarrollo Web</p>
+            <p class="title-experience">Frontend Development</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet lacus ac ante pellentesque sagittis. Phasellus quis libero mollis nibh auctor bibendum vel eget lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-          </div>
-          <div class="col-12 col-md-6">
-            Estudiante
+            <div class="badges-container">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
           </div>
           
+          <div class="column col-12 col-md-4">
+            <i class="bi bi-mortarboard"></i>
+            <p class="title-experience">Student</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet lacus ac ante pellentesque sagittis. Phasellus quis libero mollis nibh auctor bibendum vel eget lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <div class="badges-container">
+              <span class="badge text-bg-primary">CoderHouse</span>
+              <span class="badge text-bg-primary">next_U</span>
+              <span class="badge text-bg-primary">Web Developer</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React.JS</span>
+            </div>
+          </div>
+
+          <div class="column col-12 col-md-4">
+            <i class="bi bi-hdd-stack"></i>
+            <p class="title-experience">Backend Development</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet lacus ac ante pellentesque sagittis. Phasellus quis libero mollis nibh auctor bibendum vel eget lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <div class="badges-container">
+              <span class="badge text-bg-primary">Node.JS</span>
+              <span class="badge text-bg-primary">SQL</span>
+              <span class="badge text-bg-primary">JAVA</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section id="recent-project" class="recent-project light-section d-flex flex-column">
+      <h2 class="title-section black-text">
+        My projects
+      </h2>
+      <h3 class="description-section">Here are some of my projects</h3>
+
+      <!-- project carrousel -->
+      <div class="container text-center project-container">
+        <div class="row">
+          <!-- project 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project">
+              <img src="images/proyecto1.png" alt="project 1">
+              <div class="overlay"> 
+                <p>Project 1</p>
+                <div class="icon-container">
+                  <a href="#" target="_blank" rel="nooperner noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="nooperner noreferrer"></a>
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- project 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project">
+              <img src="images/proyecto2.png" alt="project 2">
+              <div class="overlay"> 
+                <p>Project 2</p>
+                <div class="icon-container">
+                  <a href="#" target="_blank" rel="nooperner noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="nooperner noreferrer"></a>
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- project 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project">
+              <img src="images/proyecto3.png" alt="project 3">
+              <div class="overlay"> 
+                <p>Project 3</p>
+                <div class="icon-container">
+                  <a href="#" target="_blank" rel="nooperner noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="nooperner noreferrer"></a>
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- project 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project">
+              <img src="images/proyecto4.png" alt="project 4">
+              <div class="overlay"> 
+                <p>Project 4</p>
+                <div class="icon-container">
+                  <a href="#" target="_blank" rel="nooperner noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="nooperner noreferrer"></a>
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- project 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project">
+              <img src="images/proyecto5.png" alt="project 4">
+              <div class="overlay"> 
+                <p>Project 5</p>
+                <div class="icon-container">
+                  <a href="#" target="_blank" rel="nooperner noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="nooperner noreferrer"></a>
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- project 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project">
+              <img src="images/proyecto6.png" alt="project 6">
+              <div class="overlay"> 
+                <p>Project 6</p>
+                <div class="icon-container">
+                  <a href="#" target="_blank" rel="nooperner noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="nooperner noreferrer"></a>
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
+      <a href="#" target="_blank" rel="nooperner noreferrer">
+        <button type="button" class="btn btn-info">
+          Additional Projects
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
     </section>
+
+    <!-- testimonios -->
+    <section id="comments" class="comments light-section">
+    <h2 class="title-section">Comments</h2>
+    <h3 class="description-section">here are some of my clients comments</h3>
+
+    <!-- Carousel -->
+    <div id="carousel-comments" class="carousel slide carousel-dark">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="comments-images rounded-circle" src="images/cliente1.svg" alt="">
+            <p class="comments-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet lacus ac ante pellentesque sagittis.</p>
+            <div class="comments-info">
+              <p class="client">Andres</p>
+              <p class="role">Frontend Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="comments-images rounded-circle" src="images/cliente2.svg" alt="">
+            <p class="comments-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet lacus ac ante pellentesque sagittis.</p>
+            <div class="comments-info">
+              <p class="client">Ingrid</p>
+              <p class="role">Project Manager & Architec</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="comments-images rounded-circle" src="images/cliente3.svg" alt="">
+            <p class="comments-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet lacus ac ante pellentesque sagittis.</p>
+            <div class="comments-info">
+              <p class="client">John</p>
+              <p class="role">Learning Director</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-comments" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-comments" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
+
+
+    <!-- contact -->
+    <section id="contact" class="contact dark-section">
+      <div class="container">
+        <div class="container text-center d-flex justify-content-evenly rectangle">
+          <div class="row">
+            <div class="col-12 col-md-4 title-section">
+              let's chat
+            </div>
+            <div class="col-12 col-md-4 description">
+              I will help you to create your site or web app
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:andrew.buitrago001@gmail.com">
+                <button type="button">
+                  email me
+                  <i class="bi bi-envelope-at-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- socialmedia/foother -->
+    <footer class="dark-section d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="./images/icono-blanco.svg" alt="Portfolio image">
+      <p class="text-footer text-center">Learning everyday </p>
+
+      <div class="social-media-icon d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="nooperner noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="nooperner noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="nooperner noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="#" target="_blank" rel="nooperner noreferrer">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="#" target="_blank" rel="nooperner noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:andrew.buitrago001@gmail.com" target="_blank" rel="nooperner noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+
+      <div class="copywrite">
+        created by Andrew B &#169;
+      </div>
+    </footer>
 
     <!--Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 

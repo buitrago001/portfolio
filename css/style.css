@@ -74,7 +74,7 @@ section{
 }
 
 /*Experience*/
-.light-section{
+.experiences .light-section{
   color: #1b1b32;
   background-color: white;
 }
@@ -83,13 +83,15 @@ section{
   padding: 40px 40px 60px 40px;
 }
 
-.title-experience{
+.experiences .row{
+  height: fit-content;
+}
+
+.experiences .title-experience{
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
 }
-
-
 
 .experiences i{
   font-size: 2.5rem;
@@ -97,10 +99,288 @@ section{
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
+}
+
+.experiences .column{
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.experiences .column:hover{
+  color: white;
+  background-color: #0a0a23;
+}
+
+.badges-container{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
+/* Projects */
+
+.recent-project{
+  padding: 40px;
 
 }
 
+.black-text{
+  color: black;
+}
+
+.white-text{
+  color: white;
+}
+
+.btn-info{
+  font-size: 1.1rem;
+  margin: 20px;
+  background-color: white;
+  border-color: #0a0a23;
+}
+
+.description-section{
+  font-size: 1.2rem #584e4e;
+}
+
+.recent-project img{
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.project-container{
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay{
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+,.overlay p{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.project:hover .overlay{
+  opacity: 1;
+}
+
+.project:hover img{
+  opacity: 0.5;
+}
+
+.project{
+  position: relative;
+}
+
+.overlay .icon-container{
+  display: flex;
+}
+
+.overlay i{
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+/* Comments */
+.comments{
+  padding: 40px 40px 80px 40px;
+}
+
+.comments .carousel{
+  max-width: 800px;
+}
+
+.carousel-item{
+  height: 500px;
+}
+
+.carousel-item .container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.comments-images{
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px 20px 10px;
+}
+
+.comments-text{
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.comments-info{
+  font-weight: bold;
+  text-align: center;
+}
+
+.comments-info p{
+  margin-bottom: 0;
+}
+
+.comments-info .role {
+  font-size: 0.9rem;
+  color: #656060;
+}
+
+.comments-footer .client{
+  font-size: 1.2rem;
+} 
+
+.contact .container{
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.container .rectangle{
+  margin-top: -5rem;
+  background-color: rgb(13, 110, 253);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contact .row{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contact .description{
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contact button{
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact button i{
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact button:hover{
+  background-color: white;
+  color: black;
+}
+
+.contact button:hover i{
+  color: black;
+}
+
+/* footer */
+
+footer{
+  min-height: 500px;
+}
+
+.footer-logo{
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.text-footer{
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+
+.social-media-icon a{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.social-media-icon i{
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in; 
+}
+
+.social-media-icon a:hover{
+  background-color:white;
+  border: 2px solid rgb(13, 110, 253);
+
+}
+
+.social-media-icon a:hover i{
+  color: black;
+}
+
+.copywrite{
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+
 /* Responsive */
+@media screen and (max-width: 400px) {
+  .overlay p{font-size: 18px;
+    display: none;
+  }
+
+  .overlay i{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .comments-images {
+    height: 120px;
+    width: 120px;
+  }
+
+  .comments-text{
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .navbar.brand{
     display: none;
@@ -112,3 +392,4 @@ section{
     max-width: 600px;
   }
 }
+

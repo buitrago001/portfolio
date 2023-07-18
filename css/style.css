@@ -63,7 +63,7 @@ section{
 
 /*dark section*/
 .about-me{
-  height: 500px;
+  height: 300px;
   padding: 10px;
 }
 
@@ -115,6 +115,14 @@ section{
   background-color: #0a0a23;
 }
 
+.experiences p{
+  text-align: justify;
+}
+
+.experiences .title-experience{
+  text-align: center;
+}
+
 .badges-container{
   font-size: 20px;
   font-weight: bold;
@@ -126,8 +134,13 @@ section{
 }
 /* Projects */
 
+.project .project-img{
+  height: 300px;
+}
+
 .recent-project{
   padding: 40px;
+  margin-bottom: 30px;
 
 }
 
@@ -202,9 +215,10 @@ section{
   margin: 10px;
 }
 
-/* Comments */
+/* recent projeects */
 .comments{
   padding: 40px 40px 80px 40px;
+  /* border-bottom: 0.5px #aeaeae dotted; */
 }
 
 .comments .carousel{
